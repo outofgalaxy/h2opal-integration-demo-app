@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644712241E58C4C400F84814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644712231E58C4C400F84814 /* AppDelegate.swift */; };
+		644712261E58C4C400F84814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644712251E58C4C400F84814 /* ViewController.swift */; };
+		644712291E58C4C400F84814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644712271E58C4C400F84814 /* Main.storyboard */; };
+		6447122B1E58C4C400F84814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6447122A1E58C4C400F84814 /* Assets.xcassets */; };
+		6447122E1E58C4C400F84814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6447122C1E58C4C400F84814 /* LaunchScreen.storyboard */; };
+		644712361E58C70700F84814 /* H2OPalBackendHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644712351E58C70700F84814 /* H2OPalBackendHandler.swift */; };
+		6447123C1E59C28400F84814 /* Crypto+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6447123B1E59C28400F84814 /* Crypto+Utils.swift */; };
+		6447123F1E59D54300F84814 /* H2OPalIntegrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6447123E1E59D54300F84814 /* H2OPalIntegrationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		644712201E58C4C400F84814 /* H2OPal Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H2OPal Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		644712231E58C4C400F84814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		644712251E58C4C400F84814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		644712281E58C4C400F84814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6447122A1E58C4C400F84814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6447122D1E58C4C400F84814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6447122F1E58C4C400F84814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644712351E58C70700F84814 /* H2OPalBackendHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H2OPalBackendHandler.swift; sourceTree = "<group>"; };
+		644712371E59C24C00F84814 /* H2OPal Demo App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "H2OPal Demo App-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		6447123B1E59C28400F84814 /* Crypto+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Crypto+Utils.swift"; sourceTree = "<group>"; };
+		6447123E1E59D54300F84814 /* H2OPalIntegrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H2OPalIntegrationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6447121D1E58C4C400F84814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		644712171E58C4C400F84814 = {
+			isa = PBXGroup;
+			children = (
+				644712221E58C4C400F84814 /* H2OPal Demo App */,
+				644712211E58C4C400F84814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		644712211E58C4C400F84814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644712201E58C4C400F84814 /* H2OPal Demo App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644712221E58C4C400F84814 /* H2OPal Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				644712231E58C4C400F84814 /* AppDelegate.swift */,
+				644712251E58C4C400F84814 /* ViewController.swift */,
+				6447123E1E59D54300F84814 /* H2OPalIntegrationViewController.swift */,
+				644712351E58C70700F84814 /* H2OPalBackendHandler.swift */,
+				644712271E58C4C400F84814 /* Main.storyboard */,
+				6447122A1E58C4C400F84814 /* Assets.xcassets */,
+				6447122C1E58C4C400F84814 /* LaunchScreen.storyboard */,
+				6447122F1E58C4C400F84814 /* Info.plist */,
+				644712371E59C24C00F84814 /* H2OPal Demo App-Bridging-Header.h */,
+				6447123B1E59C28400F84814 /* Crypto+Utils.swift */,
+			);
+			path = "H2OPal Demo App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6447121F1E58C4C400F84814 /* H2OPal Demo App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644712321E58C4C400F84814 /* Build configuration list for PBXNativeTarget "H2OPal Demo App" */;
+			buildPhases = (
+				6447121C1E58C4C400F84814 /* Sources */,
+				6447121D1E58C4C400F84814 /* Frameworks */,
+				6447121E1E58C4C400F84814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "H2OPal Demo App";
+			productName = "H2OPal Demo App";
+			productReference = 644712201E58C4C400F84814 /* H2OPal Demo App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644712181E58C4C400F84814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Out of Galaxy, Inc.";
+				TargetAttributes = {
+					6447121F1E58C4C400F84814 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 43C5PCW736;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6447121B1E58C4C400F84814 /* Build configuration list for PBXProject "H2OPal Demo App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644712171E58C4C400F84814;
+			productRefGroup = 644712211E58C4C400F84814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6447121F1E58C4C400F84814 /* H2OPal Demo App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6447121E1E58C4C400F84814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6447122E1E58C4C400F84814 /* LaunchScreen.storyboard in Resources */,
+				6447122B1E58C4C400F84814 /* Assets.xcassets in Resources */,
+				644712291E58C4C400F84814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6447121C1E58C4C400F84814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644712261E58C4C400F84814 /* ViewController.swift in Sources */,
+				6447123F1E59D54300F84814 /* H2OPalIntegrationViewController.swift in Sources */,
+				644712361E58C70700F84814 /* H2OPalBackendHandler.swift in Sources */,
+				6447123C1E59C28400F84814 /* Crypto+Utils.swift in Sources */,
+				644712241E58C4C400F84814 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		644712271E58C4C400F84814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644712281E58C4C400F84814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6447122C1E58C4C400F84814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6447122D1E58C4C400F84814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		644712301E58C4C400F84814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		644712311E58C4C400F84814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		644712331E58C4C400F84814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 43C5PCW736;
+				INFOPLIST_FILE = "H2OPal Demo App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outofgalaxy.h2opal.H2OPal-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "H2OPal Demo App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		644712341E58C4C400F84814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 43C5PCW736;
+				INFOPLIST_FILE = "H2OPal Demo App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outofgalaxy.h2opal.H2OPal-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "H2OPal Demo App-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6447121B1E58C4C400F84814 /* Build configuration list for PBXProject "H2OPal Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644712301E58C4C400F84814 /* Debug */,
+				644712311E58C4C400F84814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644712321E58C4C400F84814 /* Build configuration list for PBXNativeTarget "H2OPal Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644712331E58C4C400F84814 /* Debug */,
+				644712341E58C4C400F84814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644712181E58C4C400F84814 /* Project object */;
+}
