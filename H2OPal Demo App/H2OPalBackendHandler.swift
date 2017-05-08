@@ -61,7 +61,7 @@ class H2OPalBackendHandler {
   // H2OPal backend
   static private var urlComponents: URLComponents { // base URL components of the web service
     var components = URLComponents()
-    components.scheme = "http"
+    components.scheme = "https"
     components.host = "api.h2opal.com"
 
     return components
