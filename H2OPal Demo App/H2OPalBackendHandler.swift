@@ -156,6 +156,72 @@ class H2OPalBackendHandler {
       }
       }.resume()
   }
+
+  static func h2opalLoadWaterEntries(completion: @escaping (NSError?) -> Void) {
+    guard let userID = UserDefaults.standard.object(forKey: "h2opal_user_id") as? String,
+      let token = UserDefaults.standard.object(forKey: "h2opal_token") as? String else {
+        return
+    }
+
+    var authenticateURLComponents = urlComponents
+    authenticateURLComponents.path = "/application/v1/user/\(userID)/daily_goals"
+
+    // 1: Send 0 for timestamp if this is your first time querying the server, otherwise use timestamp retreived from the server. See comment no.: 5
+    let previousSyncUTCTimeStamp =  UserDefaults.standard.object(forKey: "latestTimestampFromServer") as? Double ?? 0
+    let body = ["previousSyncUTCTimestamp" : previousSyncUTCTimeStamp]
+
+    var bodyData: Data?
+    do {
+      bodyData = try JSONSerialization.data(withJSONObject: body, options: .prettyPrinted)
+    }
+    catch {
+      debugPrint("Cannot serialize JSON body")
+    }
+
+    let timestamp = String(format: "%.0f", Date().timeIntervalSince1970 * 1000)
+    let timestampQuery = URLQueryItem(name: "timestamp", value: timestamp)
+    let hmacSignatureQuery = URLQueryItem(name: "hmac", value: hmacSignature(timestamp: timestamp, payload: token, requestBody: String(data: bodyData!, encoding: .utf8)!))
+    let applicationIDQuery = URLQueryItem(name: "application_id", value: Constants.applicationID)
+    authenticateURLComponents.queryItems = [applicationIDQuery, timestampQuery, hmacSignatureQuery]
+
+    let authenticateURL = authenticateURLComponents.url!
+
+    var urlRequest = URLRequest(url: authenticateURL)
+    urlRequest.httpBody = bodyData
+    urlRequest.httpMethod = "POST"
+    urlRequest.setValue("application/json", forHTTPHeaderField: "Content-Type")
+
+    session.dataTask(with: urlRequest) { (data, response, error) in
+      if let data = data,
+        let json = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
+        if  let dailyGoals = json?["list"] as? [[String : Any]]
+        {
+          // 2: Do something with dailyGoals
+          print(dailyGoals.count)
+
+          // 3: Sort daily goals "updated" keys - ascending and take last
+          var updatedTimes = dailyGoals.flatMap({ (element) -> Double? in
+            return element["updated"] as? Double
+          })
+
+          // 4: Take last timestamp
+          updatedTimes = updatedTimes.sorted()
+
+          // 5: Save it somewhere so you can use it later when querying server for new entries. See comment no.: 1
+          if let latestTimestamp = updatedTimes.last {
+            UserDefaults.standard.set(latestTimestamp, forKey: "latestTimestampFromServer")
+            UserDefaults.standard.synchronize()
+          }
+
+        } else if let errorMessage = json?["error_message"] as? String,
+          let errorCode = json?["error_code"] as? Int {
+          // Handle error
+          let error = NSError(domain: "com.myapp.error.backend", code: errorCode, userInfo: [NSLocalizedDescriptionKey : errorMessage])
+          completion(error)
+        }
+      }
+      }.resume()
+  }
 }
 
 extension URL {

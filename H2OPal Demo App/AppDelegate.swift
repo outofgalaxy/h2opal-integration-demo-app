@@ -15,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+//H2OPalBackendHandler.h2opalLoadWaterEntriesForDates(startDate: Date()) { (error) in
+//  
+//    }
 
+    H2OPalBackendHandler.h2opalLoadWaterEntries { (error) in
+
+    }
     return true
   }
 
