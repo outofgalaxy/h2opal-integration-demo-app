@@ -101,6 +101,24 @@ Before your app or backend can query H2OPal's water entries, you must get unique
  After you have completed these steps, your app (and your backend) is authenticated to use H2OPal's water intake data. 
  
  
+ # Sample code - H2OPal Shopify integration
+This is a sample code for integrating Shopify store in your app.
+
+1. Obtain credentials for Shopify SDK from Out of Galaxy Inc.
+
+2. Integrate shopify SDK ([Mobile Buy SDK](https://github.com/Shopify/mobile-buy-sdk-ios)).
+
+3. Drag and drop source code from `Shop` group in H2OPal Demo Xcode project to your project.
+
+4. Present Store by Using `StoreHandler` class. Example code 
+
+
+```swift
+  @IBAction func buyButtonPressed(_ sender: Any) {
+    let storeHandler = StoreHandler(viewController: self)
+    storeHandler.presentProductViewController(6567040517)
+  }
+  
 
   
   
