@@ -7,6 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		642E2C081ED0918300A0B6FE /* StoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C071ED0918300A0B6FE /* StoreHandler.swift */; };
+		642E2C711ED0934000A0B6FE /* Theme+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C1E1ED0934000A0B6FE /* Theme+Additions.m */; };
+		642E2C721ED0934000A0B6FE /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C201ED0934000A0B6FE /* Theme.m */; };
+		642E2C731ED0934000A0B6FE /* VisualEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C221ED0934000A0B6FE /* VisualEffectView.m */; };
+		642E2C741ED0934000A0B6FE /* ImageKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C251ED0934000A0B6FE /* ImageKit.m */; };
+		642E2C751ED0934000A0B6FE /* PaymentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C271ED0934000A0B6FE /* PaymentButton.m */; };
+		642E2C761ED0934000A0B6FE /* UIButton+PaymentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C291ED0934000A0B6FE /* UIButton+PaymentButton.m */; };
+		642E2C771ED0934000A0B6FE /* UIImage+PaymentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C2B1ED0934000A0B6FE /* UIImage+PaymentButton.m */; };
+		642E2C781ED0934000A0B6FE /* ActionableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C2E1ED0934000A0B6FE /* ActionableFooterView.m */; };
+		642E2C791ED0934000A0B6FE /* ActionableFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642E2C2F1ED0934000A0B6FE /* ActionableFooterView.xib */; };
+		642E2C7A1ED0934000A0B6FE /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C311ED0934000A0B6FE /* AsyncImageView.m */; };
+		642E2C7B1ED0934000A0B6FE /* CheckoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C331ED0934000A0B6FE /* CheckoutButton.m */; };
+		642E2C7C1ED0934000A0B6FE /* DisclosureIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C351ED0934000A0B6FE /* DisclosureIndicatorView.m */; };
+		642E2C7D1ED0934000A0B6FE /* ErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C371ED0934000A0B6FE /* ErrorView.m */; };
+		642E2C7E1ED0934000A0B6FE /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C391ED0934000A0B6FE /* GradientView.m */; };
+		642E2C7F1ED0934000A0B6FE /* HeaderBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C3B1ED0934000A0B6FE /* HeaderBackgroundView.m */; };
+		642E2C801ED0934000A0B6FE /* HeaderOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C3D1ED0934000A0B6FE /* HeaderOverlayView.m */; };
+		642E2C811ED0934000A0B6FE /* ProductDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C3F1ED0934000A0B6FE /* ProductDescriptionCell.m */; };
+		642E2C821ED0934000A0B6FE /* ProductHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C411ED0934000A0B6FE /* ProductHeaderCell.m */; };
+		642E2C831ED0934000A0B6FE /* ProductImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C431ED0934000A0B6FE /* ProductImageCell.m */; };
+		642E2C841ED0934000A0B6FE /* ProductVariantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C451ED0934000A0B6FE /* ProductVariantCell.m */; };
+		642E2C851ED0934000A0B6FE /* ProductView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C471ED0934000A0B6FE /* ProductView.m */; };
+		642E2C861ED0934000A0B6FE /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C491ED0934000A0B6FE /* ProductViewController.m */; };
+		642E2C871ED0934000A0B6FE /* ProductViewControllerThemeStyleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C4B1ED0934000A0B6FE /* ProductViewControllerThemeStyleTableViewCell.m */; };
+		642E2C881ED0934000A0B6FE /* ProductViewControllerThemeTintColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C4D1ED0934000A0B6FE /* ProductViewControllerThemeTintColorTableViewCell.m */; };
+		642E2C891ED0934000A0B6FE /* ProductViewControllerToggleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C4F1ED0934000A0B6FE /* ProductViewControllerToggleTableViewCell.m */; };
+		642E2C8A1ED0934000A0B6FE /* ProductViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C511ED0934000A0B6FE /* ProductViewHeader.m */; };
+		642E2C8B1ED0934000A0B6FE /* ProductViewNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C531ED0934000A0B6FE /* ProductViewNavigationController.m */; };
+		642E2C8C1ED0934000A0B6FE /* ProductViewPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C551ED0934000A0B6FE /* ProductViewPresentationController.m */; };
+		642E2C8D1ED0934000A0B6FE /* OptionBreadCrumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C581ED0934000A0B6FE /* OptionBreadCrumbsView.m */; };
+		642E2C8E1ED0934000A0B6FE /* OptionSelectionNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C5A1ED0934000A0B6FE /* OptionSelectionNavigationController.m */; };
+		642E2C8F1ED0934000A0B6FE /* OptionSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C5C1ED0934000A0B6FE /* OptionSelectionViewController.m */; };
+		642E2C901ED0934000A0B6FE /* OptionValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C5E1ED0934000A0B6FE /* OptionValueCell.m */; };
+		642E2C911ED0934000A0B6FE /* VariantOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C601ED0934000A0B6FE /* VariantOptionView.m */; };
+		642E2C921ED0934000A0B6FE /* VariantSelectionPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C621ED0934000A0B6FE /* VariantSelectionPresentationController.m */; };
+		642E2C931ED0934000A0B6FE /* VariantSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C641ED0934000A0B6FE /* VariantSelectionViewController.m */; };
+		642E2C941ED0934000A0B6FE /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C671ED0934000A0B6FE /* NavigationController.m */; };
+		642E2C951ED0934000A0B6FE /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C691ED0934000A0B6FE /* PaymentViewController.m */; };
+		642E2C961ED0934000A0B6FE /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C6C1ED0934000A0B6FE /* UIColor+Additions.m */; };
+		642E2C971ED0934000A0B6FE /* UIFont+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C6E1ED0934000A0B6FE /* UIFont+Additions.m */; };
+		642E2C981ED0934000A0B6FE /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2C701ED0934000A0B6FE /* UIImage+Additions.m */; };
+		642E2CA91ED094FF00A0B6FE /* Buy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 642E2C131ED0920F00A0B6FE /* Buy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		644712241E58C4C400F84814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644712231E58C4C400F84814 /* AppDelegate.swift */; };
 		644712261E58C4C400F84814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644712251E58C4C400F84814 /* ViewController.swift */; };
 		644712291E58C4C400F84814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644712271E58C4C400F84814 /* Main.storyboard */; };
@@ -17,7 +59,119 @@
 		6447123F1E59D54300F84814 /* H2OPalIntegrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6447123E1E59D54300F84814 /* H2OPalIntegrationViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		642E2C121ED0920F00A0B6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 642E2C0B1ED0920F00A0B6FE /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 901931701BC5B9BC00D1134E;
+			remoteInfo = Buy;
+		};
+		642E2C141ED0920F00A0B6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 642E2C0B1ED0920F00A0B6FE /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90F592EC1B0D5EFE0026B382;
+			remoteInfo = "Mobile Buy SDK Tests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		642E2CAC1ED094FF00A0B6FE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				642E2CA91ED094FF00A0B6FE /* Buy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		642E2C071ED0918300A0B6FE /* StoreHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreHandler.swift; sourceTree = "<group>"; };
+		642E2C0B1ED0920F00A0B6FE /* Mobile Buy SDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Mobile Buy SDK.xcodeproj"; path = "Frameworks/Mobile Buy SDK/Mobile Buy SDK.xcodeproj"; sourceTree = "<group>"; };
+		642E2C1D1ED0934000A0B6FE /* Theme+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Theme+Additions.h"; sourceTree = "<group>"; };
+		642E2C1E1ED0934000A0B6FE /* Theme+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Theme+Additions.m"; sourceTree = "<group>"; };
+		642E2C1F1ED0934000A0B6FE /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		642E2C201ED0934000A0B6FE /* Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
+		642E2C211ED0934000A0B6FE /* VisualEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualEffectView.h; sourceTree = "<group>"; };
+		642E2C221ED0934000A0B6FE /* VisualEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualEffectView.m; sourceTree = "<group>"; };
+		642E2C241ED0934000A0B6FE /* ImageKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageKit.h; sourceTree = "<group>"; };
+		642E2C251ED0934000A0B6FE /* ImageKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageKit.m; sourceTree = "<group>"; };
+		642E2C261ED0934000A0B6FE /* PaymentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentButton.h; sourceTree = "<group>"; };
+		642E2C271ED0934000A0B6FE /* PaymentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentButton.m; sourceTree = "<group>"; };
+		642E2C281ED0934000A0B6FE /* UIButton+PaymentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PaymentButton.h"; sourceTree = "<group>"; };
+		642E2C291ED0934000A0B6FE /* UIButton+PaymentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PaymentButton.m"; sourceTree = "<group>"; };
+		642E2C2A1ED0934000A0B6FE /* UIImage+PaymentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PaymentButton.h"; sourceTree = "<group>"; };
+		642E2C2B1ED0934000A0B6FE /* UIImage+PaymentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PaymentButton.m"; sourceTree = "<group>"; };
+		642E2C2D1ED0934000A0B6FE /* ActionableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionableFooterView.h; sourceTree = "<group>"; };
+		642E2C2E1ED0934000A0B6FE /* ActionableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionableFooterView.m; sourceTree = "<group>"; };
+		642E2C2F1ED0934000A0B6FE /* ActionableFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionableFooterView.xib; sourceTree = "<group>"; };
+		642E2C301ED0934000A0B6FE /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		642E2C311ED0934000A0B6FE /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		642E2C321ED0934000A0B6FE /* CheckoutButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckoutButton.h; sourceTree = "<group>"; };
+		642E2C331ED0934000A0B6FE /* CheckoutButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckoutButton.m; sourceTree = "<group>"; };
+		642E2C341ED0934000A0B6FE /* DisclosureIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureIndicatorView.h; sourceTree = "<group>"; };
+		642E2C351ED0934000A0B6FE /* DisclosureIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureIndicatorView.m; sourceTree = "<group>"; };
+		642E2C361ED0934000A0B6FE /* ErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorView.h; sourceTree = "<group>"; };
+		642E2C371ED0934000A0B6FE /* ErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorView.m; sourceTree = "<group>"; };
+		642E2C381ED0934000A0B6FE /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		642E2C391ED0934000A0B6FE /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		642E2C3A1ED0934000A0B6FE /* HeaderBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderBackgroundView.h; sourceTree = "<group>"; };
+		642E2C3B1ED0934000A0B6FE /* HeaderBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderBackgroundView.m; sourceTree = "<group>"; };
+		642E2C3C1ED0934000A0B6FE /* HeaderOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderOverlayView.h; sourceTree = "<group>"; };
+		642E2C3D1ED0934000A0B6FE /* HeaderOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderOverlayView.m; sourceTree = "<group>"; };
+		642E2C3E1ED0934000A0B6FE /* ProductDescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDescriptionCell.h; sourceTree = "<group>"; };
+		642E2C3F1ED0934000A0B6FE /* ProductDescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDescriptionCell.m; sourceTree = "<group>"; };
+		642E2C401ED0934000A0B6FE /* ProductHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductHeaderCell.h; sourceTree = "<group>"; };
+		642E2C411ED0934000A0B6FE /* ProductHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductHeaderCell.m; sourceTree = "<group>"; };
+		642E2C421ED0934000A0B6FE /* ProductImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductImageCell.h; sourceTree = "<group>"; };
+		642E2C431ED0934000A0B6FE /* ProductImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductImageCell.m; sourceTree = "<group>"; };
+		642E2C441ED0934000A0B6FE /* ProductVariantCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductVariantCell.h; sourceTree = "<group>"; };
+		642E2C451ED0934000A0B6FE /* ProductVariantCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductVariantCell.m; sourceTree = "<group>"; };
+		642E2C461ED0934000A0B6FE /* ProductView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductView.h; sourceTree = "<group>"; };
+		642E2C471ED0934000A0B6FE /* ProductView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductView.m; sourceTree = "<group>"; };
+		642E2C481ED0934000A0B6FE /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		642E2C491ED0934000A0B6FE /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		642E2C4A1ED0934000A0B6FE /* ProductViewControllerThemeStyleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewControllerThemeStyleTableViewCell.h; sourceTree = "<group>"; };
+		642E2C4B1ED0934000A0B6FE /* ProductViewControllerThemeStyleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewControllerThemeStyleTableViewCell.m; sourceTree = "<group>"; };
+		642E2C4C1ED0934000A0B6FE /* ProductViewControllerThemeTintColorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewControllerThemeTintColorTableViewCell.h; sourceTree = "<group>"; };
+		642E2C4D1ED0934000A0B6FE /* ProductViewControllerThemeTintColorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewControllerThemeTintColorTableViewCell.m; sourceTree = "<group>"; };
+		642E2C4E1ED0934000A0B6FE /* ProductViewControllerToggleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewControllerToggleTableViewCell.h; sourceTree = "<group>"; };
+		642E2C4F1ED0934000A0B6FE /* ProductViewControllerToggleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewControllerToggleTableViewCell.m; sourceTree = "<group>"; };
+		642E2C501ED0934000A0B6FE /* ProductViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewHeader.h; sourceTree = "<group>"; };
+		642E2C511ED0934000A0B6FE /* ProductViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewHeader.m; sourceTree = "<group>"; };
+		642E2C521ED0934000A0B6FE /* ProductViewNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewNavigationController.h; sourceTree = "<group>"; };
+		642E2C531ED0934000A0B6FE /* ProductViewNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewNavigationController.m; sourceTree = "<group>"; };
+		642E2C541ED0934000A0B6FE /* ProductViewPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewPresentationController.h; sourceTree = "<group>"; };
+		642E2C551ED0934000A0B6FE /* ProductViewPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewPresentationController.m; sourceTree = "<group>"; };
+		642E2C571ED0934000A0B6FE /* OptionBreadCrumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionBreadCrumbsView.h; sourceTree = "<group>"; };
+		642E2C581ED0934000A0B6FE /* OptionBreadCrumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionBreadCrumbsView.m; sourceTree = "<group>"; };
+		642E2C591ED0934000A0B6FE /* OptionSelectionNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionSelectionNavigationController.h; sourceTree = "<group>"; };
+		642E2C5A1ED0934000A0B6FE /* OptionSelectionNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionSelectionNavigationController.m; sourceTree = "<group>"; };
+		642E2C5B1ED0934000A0B6FE /* OptionSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionSelectionViewController.h; sourceTree = "<group>"; };
+		642E2C5C1ED0934000A0B6FE /* OptionSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionSelectionViewController.m; sourceTree = "<group>"; };
+		642E2C5D1ED0934000A0B6FE /* OptionValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionValueCell.h; sourceTree = "<group>"; };
+		642E2C5E1ED0934000A0B6FE /* OptionValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionValueCell.m; sourceTree = "<group>"; };
+		642E2C5F1ED0934000A0B6FE /* VariantOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantOptionView.h; sourceTree = "<group>"; };
+		642E2C601ED0934000A0B6FE /* VariantOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariantOptionView.m; sourceTree = "<group>"; };
+		642E2C611ED0934000A0B6FE /* VariantSelectionPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantSelectionPresentationController.h; sourceTree = "<group>"; };
+		642E2C621ED0934000A0B6FE /* VariantSelectionPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariantSelectionPresentationController.m; sourceTree = "<group>"; };
+		642E2C631ED0934000A0B6FE /* VariantSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantSelectionViewController.h; sourceTree = "<group>"; };
+		642E2C641ED0934000A0B6FE /* VariantSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariantSelectionViewController.m; sourceTree = "<group>"; };
+		642E2C661ED0934000A0B6FE /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		642E2C671ED0934000A0B6FE /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		642E2C681ED0934000A0B6FE /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		642E2C691ED0934000A0B6FE /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		642E2C6B1ED0934000A0B6FE /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		642E2C6C1ED0934000A0B6FE /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		642E2C6D1ED0934000A0B6FE /* UIFont+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Additions.h"; sourceTree = "<group>"; };
+		642E2C6E1ED0934000A0B6FE /* UIFont+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Additions.m"; sourceTree = "<group>"; };
+		642E2C6F1ED0934000A0B6FE /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		642E2C701ED0934000A0B6FE /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
 		644712201E58C4C400F84814 /* H2OPal Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H2OPal Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		644712231E58C4C400F84814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		644712251E58C4C400F84814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +196,174 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		642E2C061ED0916400A0B6FE /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				642E2C071ED0918300A0B6FE /* StoreHandler.swift */,
+				642E2C1B1ED0934000A0B6FE /* Shopify */,
+			);
+			name = Shop;
+			sourceTree = "<group>";
+		};
+		642E2C091ED091CD00A0B6FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				642E2C0A1ED091DE00A0B6FE /* Buy */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		642E2C0A1ED091DE00A0B6FE /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				642E2C0B1ED0920F00A0B6FE /* Mobile Buy SDK.xcodeproj */,
+			);
+			name = Buy;
+			sourceTree = "<group>";
+		};
+		642E2C0C1ED0920F00A0B6FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				642E2C131ED0920F00A0B6FE /* Buy.framework */,
+				642E2C151ED0920F00A0B6FE /* Mobile Buy SDK Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		642E2C1B1ED0934000A0B6FE /* Shopify */ = {
+			isa = PBXGroup;
+			children = (
+				642E2C1C1ED0934000A0B6FE /* Appearance */,
+				642E2C231ED0934000A0B6FE /* PaymentButton */,
+				642E2C2C1ED0934000A0B6FE /* Product View */,
+				642E2C6A1ED0934000A0B6FE /* UIKit Additions */,
+			);
+			path = Shopify;
+			sourceTree = "<group>";
+		};
+		642E2C1C1ED0934000A0B6FE /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				642E2C1D1ED0934000A0B6FE /* Theme+Additions.h */,
+				642E2C1E1ED0934000A0B6FE /* Theme+Additions.m */,
+				642E2C1F1ED0934000A0B6FE /* Theme.h */,
+				642E2C201ED0934000A0B6FE /* Theme.m */,
+				642E2C211ED0934000A0B6FE /* VisualEffectView.h */,
+				642E2C221ED0934000A0B6FE /* VisualEffectView.m */,
+			);
+			path = Appearance;
+			sourceTree = "<group>";
+		};
+		642E2C231ED0934000A0B6FE /* PaymentButton */ = {
+			isa = PBXGroup;
+			children = (
+				642E2C241ED0934000A0B6FE /* ImageKit.h */,
+				642E2C251ED0934000A0B6FE /* ImageKit.m */,
+				642E2C261ED0934000A0B6FE /* PaymentButton.h */,
+				642E2C271ED0934000A0B6FE /* PaymentButton.m */,
+				642E2C281ED0934000A0B6FE /* UIButton+PaymentButton.h */,
+				642E2C291ED0934000A0B6FE /* UIButton+PaymentButton.m */,
+				642E2C2A1ED0934000A0B6FE /* UIImage+PaymentButton.h */,
+				642E2C2B1ED0934000A0B6FE /* UIImage+PaymentButton.m */,
+			);
+			path = PaymentButton;
+			sourceTree = "<group>";
+		};
+		642E2C2C1ED0934000A0B6FE /* Product View */ = {
+			isa = PBXGroup;
+			children = (
+				642E2C2D1ED0934000A0B6FE /* ActionableFooterView.h */,
+				642E2C2E1ED0934000A0B6FE /* ActionableFooterView.m */,
+				642E2C2F1ED0934000A0B6FE /* ActionableFooterView.xib */,
+				642E2C301ED0934000A0B6FE /* AsyncImageView.h */,
+				642E2C311ED0934000A0B6FE /* AsyncImageView.m */,
+				642E2C321ED0934000A0B6FE /* CheckoutButton.h */,
+				642E2C331ED0934000A0B6FE /* CheckoutButton.m */,
+				642E2C341ED0934000A0B6FE /* DisclosureIndicatorView.h */,
+				642E2C351ED0934000A0B6FE /* DisclosureIndicatorView.m */,
+				642E2C361ED0934000A0B6FE /* ErrorView.h */,
+				642E2C371ED0934000A0B6FE /* ErrorView.m */,
+				642E2C381ED0934000A0B6FE /* GradientView.h */,
+				642E2C391ED0934000A0B6FE /* GradientView.m */,
+				642E2C3A1ED0934000A0B6FE /* HeaderBackgroundView.h */,
+				642E2C3B1ED0934000A0B6FE /* HeaderBackgroundView.m */,
+				642E2C3C1ED0934000A0B6FE /* HeaderOverlayView.h */,
+				642E2C3D1ED0934000A0B6FE /* HeaderOverlayView.m */,
+				642E2C3E1ED0934000A0B6FE /* ProductDescriptionCell.h */,
+				642E2C3F1ED0934000A0B6FE /* ProductDescriptionCell.m */,
+				642E2C401ED0934000A0B6FE /* ProductHeaderCell.h */,
+				642E2C411ED0934000A0B6FE /* ProductHeaderCell.m */,
+				642E2C421ED0934000A0B6FE /* ProductImageCell.h */,
+				642E2C431ED0934000A0B6FE /* ProductImageCell.m */,
+				642E2C441ED0934000A0B6FE /* ProductVariantCell.h */,
+				642E2C451ED0934000A0B6FE /* ProductVariantCell.m */,
+				642E2C461ED0934000A0B6FE /* ProductView.h */,
+				642E2C471ED0934000A0B6FE /* ProductView.m */,
+				642E2C481ED0934000A0B6FE /* ProductViewController.h */,
+				642E2C491ED0934000A0B6FE /* ProductViewController.m */,
+				642E2C4A1ED0934000A0B6FE /* ProductViewControllerThemeStyleTableViewCell.h */,
+				642E2C4B1ED0934000A0B6FE /* ProductViewControllerThemeStyleTableViewCell.m */,
+				642E2C4C1ED0934000A0B6FE /* ProductViewControllerThemeTintColorTableViewCell.h */,
+				642E2C4D1ED0934000A0B6FE /* ProductViewControllerThemeTintColorTableViewCell.m */,
+				642E2C4E1ED0934000A0B6FE /* ProductViewControllerToggleTableViewCell.h */,
+				642E2C4F1ED0934000A0B6FE /* ProductViewControllerToggleTableViewCell.m */,
+				642E2C501ED0934000A0B6FE /* ProductViewHeader.h */,
+				642E2C511ED0934000A0B6FE /* ProductViewHeader.m */,
+				642E2C521ED0934000A0B6FE /* ProductViewNavigationController.h */,
+				642E2C531ED0934000A0B6FE /* ProductViewNavigationController.m */,
+				642E2C541ED0934000A0B6FE /* ProductViewPresentationController.h */,
+				642E2C551ED0934000A0B6FE /* ProductViewPresentationController.m */,
+				642E2C561ED0934000A0B6FE /* Variant Selection */,
+				642E2C651ED0934000A0B6FE /* View Controllers */,
+			);
+			path = "Product View";
+			sourceTree = "<group>";
+		};
+		642E2C561ED0934000A0B6FE /* Variant Selection */ = {
+			isa = PBXGroup;
+			children = (
+				642E2C571ED0934000A0B6FE /* OptionBreadCrumbsView.h */,
+				642E2C581ED0934000A0B6FE /* OptionBreadCrumbsView.m */,
+				642E2C591ED0934000A0B6FE /* OptionSelectionNavigationController.h */,
+				642E2C5A1ED0934000A0B6FE /* OptionSelectionNavigationController.m */,
+				642E2C5B1ED0934000A0B6FE /* OptionSelectionViewController.h */,
+				642E2C5C1ED0934000A0B6FE /* OptionSelectionViewController.m */,
+				642E2C5D1ED0934000A0B6FE /* OptionValueCell.h */,
+				642E2C5E1ED0934000A0B6FE /* OptionValueCell.m */,
+				642E2C5F1ED0934000A0B6FE /* VariantOptionView.h */,
+				642E2C601ED0934000A0B6FE /* VariantOptionView.m */,
+				642E2C611ED0934000A0B6FE /* VariantSelectionPresentationController.h */,
+				642E2C621ED0934000A0B6FE /* VariantSelectionPresentationController.m */,
+				642E2C631ED0934000A0B6FE /* VariantSelectionViewController.h */,
+				642E2C641ED0934000A0B6FE /* VariantSelectionViewController.m */,
+			);
+			path = "Variant Selection";
+			sourceTree = "<group>";
+		};
+		642E2C651ED0934000A0B6FE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				642E2C661ED0934000A0B6FE /* NavigationController.h */,
+				642E2C671ED0934000A0B6FE /* NavigationController.m */,
+				642E2C681ED0934000A0B6FE /* PaymentViewController.h */,
+				642E2C691ED0934000A0B6FE /* PaymentViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		642E2C6A1ED0934000A0B6FE /* UIKit Additions */ = {
+			isa = PBXGroup;
+			children = (
+				642E2C6B1ED0934000A0B6FE /* UIColor+Additions.h */,
+				642E2C6C1ED0934000A0B6FE /* UIColor+Additions.m */,
+				642E2C6D1ED0934000A0B6FE /* UIFont+Additions.h */,
+				642E2C6E1ED0934000A0B6FE /* UIFont+Additions.m */,
+				642E2C6F1ED0934000A0B6FE /* UIImage+Additions.h */,
+				642E2C701ED0934000A0B6FE /* UIImage+Additions.m */,
+			);
+			path = "UIKit Additions";
+			sourceTree = "<group>";
+		};
 		644712171E58C4C400F84814 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +383,7 @@
 		644712221E58C4C400F84814 /* H2OPal Demo App */ = {
 			isa = PBXGroup;
 			children = (
+				642E2C061ED0916400A0B6FE /* Shop */,
 				644712231E58C4C400F84814 /* AppDelegate.swift */,
 				644712251E58C4C400F84814 /* ViewController.swift */,
 				6447123E1E59D54300F84814 /* H2OPalIntegrationViewController.swift */,
@@ -71,6 +394,7 @@
 				6447122F1E58C4C400F84814 /* Info.plist */,
 				644712371E59C24C00F84814 /* H2OPal Demo App-Bridging-Header.h */,
 				6447123B1E59C28400F84814 /* Crypto+Utils.swift */,
+				642E2C091ED091CD00A0B6FE /* Frameworks */,
 			);
 			path = "H2OPal Demo App";
 			sourceTree = "<group>";
@@ -85,6 +409,7 @@
 				6447121C1E58C4C400F84814 /* Sources */,
 				6447121D1E58C4C400F84814 /* Frameworks */,
 				6447121E1E58C4C400F84814 /* Resources */,
+				642E2CAC1ED094FF00A0B6FE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +449,12 @@
 			mainGroup = 644712171E58C4C400F84814;
 			productRefGroup = 644712211E58C4C400F84814 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 642E2C0C1ED0920F00A0B6FE /* Products */;
+					ProjectRef = 642E2C0B1ED0920F00A0B6FE /* Mobile Buy SDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6447121F1E58C4C400F84814 /* H2OPal Demo App */,
@@ -131,12 +462,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		642E2C131ED0920F00A0B6FE /* Buy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Buy.framework;
+			remoteRef = 642E2C121ED0920F00A0B6FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		642E2C151ED0920F00A0B6FE /* Mobile Buy SDK Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mobile Buy SDK Tests.xctest";
+			remoteRef = 642E2C141ED0920F00A0B6FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		6447121E1E58C4C400F84814 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6447122E1E58C4C400F84814 /* LaunchScreen.storyboard in Resources */,
+				642E2C791ED0934000A0B6FE /* ActionableFooterView.xib in Resources */,
 				6447122B1E58C4C400F84814 /* Assets.xcassets in Resources */,
 				644712291E58C4C400F84814 /* Main.storyboard in Resources */,
 			);
@@ -149,10 +498,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				642E2C741ED0934000A0B6FE /* ImageKit.m in Sources */,
+				642E2C831ED0934000A0B6FE /* ProductImageCell.m in Sources */,
+				642E2C821ED0934000A0B6FE /* ProductHeaderCell.m in Sources */,
+				642E2C7A1ED0934000A0B6FE /* AsyncImageView.m in Sources */,
+				642E2C8E1ED0934000A0B6FE /* OptionSelectionNavigationController.m in Sources */,
+				642E2C8B1ED0934000A0B6FE /* ProductViewNavigationController.m in Sources */,
+				642E2C781ED0934000A0B6FE /* ActionableFooterView.m in Sources */,
+				642E2C901ED0934000A0B6FE /* OptionValueCell.m in Sources */,
+				642E2C941ED0934000A0B6FE /* NavigationController.m in Sources */,
+				642E2C881ED0934000A0B6FE /* ProductViewControllerThemeTintColorTableViewCell.m in Sources */,
+				642E2C711ED0934000A0B6FE /* Theme+Additions.m in Sources */,
+				642E2C8D1ED0934000A0B6FE /* OptionBreadCrumbsView.m in Sources */,
+				642E2C811ED0934000A0B6FE /* ProductDescriptionCell.m in Sources */,
+				642E2C981ED0934000A0B6FE /* UIImage+Additions.m in Sources */,
+				642E2C891ED0934000A0B6FE /* ProductViewControllerToggleTableViewCell.m in Sources */,
 				644712261E58C4C400F84814 /* ViewController.swift in Sources */,
 				6447123F1E59D54300F84814 /* H2OPalIntegrationViewController.swift in Sources */,
+				642E2C921ED0934000A0B6FE /* VariantSelectionPresentationController.m in Sources */,
+				642E2C771ED0934000A0B6FE /* UIImage+PaymentButton.m in Sources */,
+				642E2C751ED0934000A0B6FE /* PaymentButton.m in Sources */,
+				642E2C931ED0934000A0B6FE /* VariantSelectionViewController.m in Sources */,
+				642E2C8C1ED0934000A0B6FE /* ProductViewPresentationController.m in Sources */,
 				644712361E58C70700F84814 /* H2OPalBackendHandler.swift in Sources */,
+				642E2C761ED0934000A0B6FE /* UIButton+PaymentButton.m in Sources */,
+				642E2C841ED0934000A0B6FE /* ProductVariantCell.m in Sources */,
+				642E2C7C1ED0934000A0B6FE /* DisclosureIndicatorView.m in Sources */,
+				642E2C861ED0934000A0B6FE /* ProductViewController.m in Sources */,
 				6447123C1E59C28400F84814 /* Crypto+Utils.swift in Sources */,
+				642E2C731ED0934000A0B6FE /* VisualEffectView.m in Sources */,
+				642E2C8F1ED0934000A0B6FE /* OptionSelectionViewController.m in Sources */,
+				642E2C7E1ED0934000A0B6FE /* GradientView.m in Sources */,
+				642E2C911ED0934000A0B6FE /* VariantOptionView.m in Sources */,
+				642E2C8A1ED0934000A0B6FE /* ProductViewHeader.m in Sources */,
+				642E2C7D1ED0934000A0B6FE /* ErrorView.m in Sources */,
+				642E2C951ED0934000A0B6FE /* PaymentViewController.m in Sources */,
+				642E2C871ED0934000A0B6FE /* ProductViewControllerThemeStyleTableViewCell.m in Sources */,
+				642E2C721ED0934000A0B6FE /* Theme.m in Sources */,
+				642E2C961ED0934000A0B6FE /* UIColor+Additions.m in Sources */,
+				642E2C851ED0934000A0B6FE /* ProductView.m in Sources */,
+				642E2C7B1ED0934000A0B6FE /* CheckoutButton.m in Sources */,
+				642E2C801ED0934000A0B6FE /* HeaderOverlayView.m in Sources */,
+				642E2C971ED0934000A0B6FE /* UIFont+Additions.m in Sources */,
+				642E2C7F1ED0934000A0B6FE /* HeaderBackgroundView.m in Sources */,
+				642E2C081ED0918300A0B6FE /* StoreHandler.swift in Sources */,
 				644712241E58C4C400F84814 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

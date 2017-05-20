@@ -31,5 +31,10 @@ class ViewController: UIViewController {
       UIApplication.shared.openURL(url)
     }
   }
+
+  @IBAction func buyButtonPressed(_ sender: Any) {
+    let storeHandler = StoreHandler(viewController: self)
+    storeHandler.presentProductViewController(6567040517)
+  }
 }
 
