@@ -104,7 +104,7 @@ Before your app or backend can query H2OPal's water entries, you must get unique
  # Sample code - H2OPal Shopify integration
 This is a sample code for integrating Shopify store in your app.
 
-1. Obtain credentials for Shopify SDK from Out of Galaxy Inc. Generate new, unqique merhant id for Apple Pay.  ([Apple Pay Guide](https://developer.apple.com/library/content/ApplePay_Guide/Configuration.html))
+1. Obtain credentials for Shopify SDK from Out of Galaxy Inc. Generate new, unique merhant id for Apple Pay.  ([Apple Pay Guide](https://developer.apple.com/library/content/ApplePay_Guide/Configuration.html))
 
 2. Integrate shopify SDK.
 
