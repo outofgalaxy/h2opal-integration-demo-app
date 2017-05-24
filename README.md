@@ -116,7 +116,7 @@ This is a sample code for integrating Shopify store in your app.
 ```swift
   @IBAction func buyButtonPressed(_ sender: Any) {
     let storeHandler = StoreHandler(viewController: self)
-    storeHandler.presentProductViewController(7907913349)
+    storeHandler.presentProductViewController(6567040517)
   }
   
 
